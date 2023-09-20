@@ -1,4 +1,4 @@
-![logo]([https://github.com/TamimSaykat/TamimSaykat1/blob/main/1695155187136.jpeg](https://github.com/TamimSaykat/TamimSaykat1/blob/main/Cover.png)
+![logo](https://github.com/TamimSaykat/TamimSaykat1/blob/main/1695155187136.jpeg)
 <h1 align="center">Hi 👋, Welcome to My GitHub! 🚀</h1>
 <h3 align="center">Data Structures & Algorithms by Tamim Hasan Saykat</h3>
 
