@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>//Because we used the isalnum() function.
+#include <ctype.h>
 
 int stack[20];
 int top = -1;// Initializing top to -1 indicates that the stack is initially empty. As elements are added to the stack, top is incremented.
