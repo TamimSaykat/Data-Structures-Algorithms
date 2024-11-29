@@ -1,0 +1,41 @@
+class Solution:
+    def findMaxK(self, nums: List[int]) -> int:
+
+        nums.sort()
+        leanth = len(nums)- 1
+        for i in range(leanth, -1, -1): #condition: -1 means n > -1.
+            if nums[i] > 0 and -nums[i] in nums:
+                return nums[i]
+        return -1 #if no pair is exist
+
+"""Explain:
+   1. nums = [-1,2,-3,3] 
+   2.nums = [-3,-1,2,3] -- Sort 
+   i = 3 
+   nums[3] > 0 
+   3 > 0 ? yes
+
+   -nums[i] in nums 
+   -3 in nums ? means is -1 exist in nums? yes
+
+   that's means, nums[i] > 0 = positive number and -nums[i] menas opposite  number of nums[i] is exist! 
+   so, 3 -3 exist.
+"""
+"""
+nums = [-1,10,6,7,-7,1]
+nums = [-7, -1, 1, 6, 7, 10]
+i = 5 
+nums[5] > 0 and -nums[5] in nums:
+so,10 > 0 and -10 in nums ? no 
+
+i = 4 
+nums[4] > 0 and -nums[4] in nums:
+so,7 > 0 and -7 in nums ? yes! 
+so return 7.Because 7 and -7 is exist in the list
+"""
+
+
+
+
+
+        
